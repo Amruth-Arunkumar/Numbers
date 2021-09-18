@@ -3,42 +3,35 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
   <groupId>io.github.Amruth-Arunkumar</groupId>
   <artifactId>Number</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
-
   <name>Number</name>
   <description>A test java library</description>
-  <url>https://github.com/Amruth-Arunkumar/Numbers.git</url>
-
+  <url>https://github.com/Amruth-Arunkumar/Numbers</url>
   <licenses>
     <license>
       <name>The Apache License, Version 2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
     </license>
   </licenses>
-
   <developers>
     <developer>
       <name>Amruth Arunkumar</name>
       <email>amruth1.618@gmail.com</email>
     </developer>
   </developers>
-
   <scm>
     <connection>scm:git:git@github.com:Amruth-Arunkumar/Numbers.git</connection>
     <developerConnection>scm:git:ssh://github.com:Amruth-Arunkumar/Numbers.git</developerConnection>
     <url>https://github.com/Amruth-Arunkumar/Numbers/tree/master</url>
   </scm>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
   </properties>
-
   <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -53,7 +46,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
@@ -64,7 +56,6 @@
       <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
-
   <profiles>
     <profile>
       <id>release</id>
@@ -140,6 +131,9 @@
                   </goals>
                 </execution>
               </executions>
+              <configuration>
+                <keyname>Amruth Arunkumar &lt;amruth1.618@gmail.com&gt;</keyname>
+              </configuration>
             </plugin>
             <plugin>
               <groupId>org.apache.maven.plugins</groupId>
