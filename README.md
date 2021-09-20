@@ -6,8 +6,8 @@ A library to do basic math operations
 Add the following dependency:
 ````XML
 <dependency>
-    <groupId>amruth.in.number</groupId>
-    <artifactId>Number</artifactId>
+    <groupId>io.github.AmruthArunkumar</groupId>
+    <artifactId>Numbers</artifactId>
     <version>1.0.0</version>
 </dependency>
 ````
