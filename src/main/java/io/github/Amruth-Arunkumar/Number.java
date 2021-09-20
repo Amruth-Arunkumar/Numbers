@@ -1,4 +1,4 @@
-package amruth.in.number;
+package io.github.AmruthArunkumar;
 
 public class Number {
     private int number;
